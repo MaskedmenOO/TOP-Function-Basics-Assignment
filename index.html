@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function Basics Assignment</title>
+
+  </head>
+<body>
+<p>Press F12 to view console.log</p>
+  <script>
+    function add7(a){
+      return a+7;
+    }
+    console.log(add7(3));
+
+    function multiply(a,b){
+      return a*b;
+    }
+    console.log(multiply(4,6));
+
+    function capitalize(text){
+      return text.slice(0,1).toUpperCase()+ text.slice(1).toLowerCase();
+    }
+
+    console.log(capitalize("UPPERCasE"));
+
+    function lastLetter(text){
+      return text.slice(-1);
+    }
+
+    console.log(lastLetter("fellow"));
+  </script>
+</body>
+</html>
